@@ -4,6 +4,9 @@
   "description": "Possibly the only no-scam non-monetized youtube downloader...",
   "main": "/index.js",
   "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "ytdl-core": "^0.29.7",
     "cors": "^2.8.5",
