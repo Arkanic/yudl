@@ -7,5 +7,5 @@ convertBtnMP4.addEventListener("click", () => {
 });
 
 function sendURLMP4(URL) {
-  window.location.href = `https://youtube-downloader--tal0s.repl.co/download?URL=${URL}?TYPE=mp4`;
+  window.location.href = `https://yudl.herokuapp.com/download?URL=${URL}?TYPE=mp4`;
 }
