@@ -1,2 +1,12 @@
 {
+  "name": "yudl",
+  "version": "0.5.1",
+  "description": "Possibly the only no-scam non-monetized youtube downloader...",
+  "main": "/index.js",
+  "private": true,
+  "dependencies": {
+    "ytdl-core": "^0.29.7",
+    "cors": "^2.8.5",
+    "express": "4.17.1"
+  }
 }
